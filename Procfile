@@ -1,1 +1,1 @@
-worker: python testcode.py
+web: gunicorn testcode:app
